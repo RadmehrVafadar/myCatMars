@@ -1,0 +1,30 @@
+/* Add your styles here */ 
+
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    transition: background-color 0.5s ease;
+    background-color: #f46d0e;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+#catTitle {
+    font-family: 'cursive', 'Comic Sans MS', sans-serif; /* A few fun font options */
+    font-size: 6rem; /* Adjust size as needed */
+    color: white; /* Or another color that contrasts well */
+    text-shadow: 2px 2px 4px #000000; /* Simple text shadow for better readability */
+    margin-bottom: 10px; /* Space between title and cat */
+}
+
+#catImage {
+    width: 700px;
+    height: auto;
+    image-rendering: pixelated;
+}
