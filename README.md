@@ -5,3 +5,5 @@ TODO:
     Create Lofi Music to play in backgound
     Pixel art of room
 
+FEATURES:
+    Mars will meow when he is clicked!
